@@ -190,6 +190,12 @@
     mpQuery = GLU::QueryCreate();
 } // prepareOpenGL
 
+- (void)lockFocus
+{
+    // BUG Not called on Mojave
+    [super lockFocus];
+}
+
 - (BOOL) isOpaque
 {
     return YES;
