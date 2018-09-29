@@ -100,6 +100,7 @@ static CVReturn MyDisplayLinkCallback(CVDisplayLinkRef displayLink, const CVTime
 
 - (void)lockFocus
 {
+    // BUG Not called on Mojave
     [super lockFocus];
     
     if ([[self openGLContext] view] != self)
