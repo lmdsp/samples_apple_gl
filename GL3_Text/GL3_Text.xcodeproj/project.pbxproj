@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361317AD1640A96500825F6B /* AppView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 361317A61640A96500825F6B /* AppView.mm */; };
+		3633608D16A8885A0063863D /* GLUView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3633608B16A887C40063863D /* GLUView.mm */; };
+		363ADB501610E55C00EC32EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363ADB4F1610E55C00EC32EF /* Cocoa.framework */; };
+		363ADB521610E56A00EC32EF /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363ADB511610E56A00EC32EF /* OpenGL.framework */; };
+		369E190A19B8E2EA00CDC80A /* CFIFStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18E519B8E2EA00CDC80A /* CFIFStream.mm */; };
+		369E190B19B8E2EA00CDC80A /* CFUString.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18E819B8E2EA00CDC80A /* CFUString.mm */; };
+		369E190C19B8E2EA00CDC80A /* GLUArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18EC19B8E2EA00CDC80A /* GLUArray.mm */; };
+		369E190D19B8E2EA00CDC80A /* GLMConstants.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18F219B8E2EA00CDC80A /* GLMConstants.mm */; };
+		369E190E19B8E2EA00CDC80A /* GLMTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18F519B8E2EA00CDC80A /* GLMTransforms.mm */; };
+		369E190F19B8E2EA00CDC80A /* GLUQuery.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18F819B8E2EA00CDC80A /* GLUQuery.mm */; };
+		369E191019B8E2EA00CDC80A /* GLUProgram.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18FB19B8E2EA00CDC80A /* GLUProgram.mm */; };
+		369E191119B8E2EA00CDC80A /* GLUString.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E18FE19B8E2EA00CDC80A /* GLUString.mm */; };
+		369E191219B8E2EA00CDC80A /* GLUText.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E190119B8E2EA00CDC80A /* GLUText.mm */; };
+		369E191319B8E2EA00CDC80A /* GLUTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E190419B8E2EA00CDC80A /* GLUTexture.mm */; };
+		369E191419B8E2EA00CDC80A /* GLUVertexArray.mm in Sources */ = {isa = PBXBuildFile; fileRef = 369E190719B8E2EA00CDC80A /* GLUVertexArray.mm */; };
+		36BE3F6A13D6067E00D9C225 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36BE3F4113D6067E00D9C225 /* MainMenu.xib */; };
+		36BE3F7D13D6067E00D9C225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BE3F6913D6067E00D9C225 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E48DA511395F1750035FEC4 /* GL3_Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GL3_Text.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361317A51640A96500825F6B /* AppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppView.h; sourceTree = "<group>"; };
+		361317A61640A96500825F6B /* AppView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppView.mm; sourceTree = "<group>"; };
+		3633608A16A887C40063863D /* GLUView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLUView.h; sourceTree = "<group>"; };
+		3633608B16A887C40063863D /* GLUView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUView.mm; sourceTree = "<group>"; };
+		363ADB4F1610E55C00EC32EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		363ADB511610E56A00EC32EF /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		369E18E419B8E2EA00CDC80A /* CFIFStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFIFStream.h; sourceTree = "<group>"; };
+		369E18E519B8E2EA00CDC80A /* CFIFStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CFIFStream.mm; sourceTree = "<group>"; };
+		369E18E719B8E2EA00CDC80A /* CFString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFString.h; sourceTree = "<group>"; };
+		369E18E819B8E2EA00CDC80A /* CFUString.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CFUString.mm; sourceTree = "<group>"; };
+		369E18EB19B8E2EA00CDC80A /* GLUArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUArray.h; sourceTree = "<group>"; };
+		369E18EC19B8E2EA00CDC80A /* GLUArray.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUArray.mm; sourceTree = "<group>"; };
+		369E18EE19B8E2EA00CDC80A /* GLUContainers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUContainers.h; sourceTree = "<group>"; };
+		369E18F119B8E2EA00CDC80A /* GLMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMConstants.h; sourceTree = "<group>"; };
+		369E18F219B8E2EA00CDC80A /* GLMConstants.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLMConstants.mm; sourceTree = "<group>"; };
+		369E18F419B8E2EA00CDC80A /* GLMTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMTransforms.h; sourceTree = "<group>"; };
+		369E18F519B8E2EA00CDC80A /* GLMTransforms.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLMTransforms.mm; sourceTree = "<group>"; };
+		369E18F719B8E2EA00CDC80A /* GLUQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUQuery.h; sourceTree = "<group>"; };
+		369E18F819B8E2EA00CDC80A /* GLUQuery.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUQuery.mm; sourceTree = "<group>"; };
+		369E18FA19B8E2EA00CDC80A /* GLUProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUProgram.h; sourceTree = "<group>"; };
+		369E18FB19B8E2EA00CDC80A /* GLUProgram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUProgram.mm; sourceTree = "<group>"; };
+		369E18FD19B8E2EA00CDC80A /* GLUString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUString.h; sourceTree = "<group>"; };
+		369E18FE19B8E2EA00CDC80A /* GLUString.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUString.mm; sourceTree = "<group>"; };
+		369E190019B8E2EA00CDC80A /* GLUText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUText.h; sourceTree = "<group>"; };
+		369E190119B8E2EA00CDC80A /* GLUText.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUText.mm; sourceTree = "<group>"; };
+		369E190319B8E2EA00CDC80A /* GLUTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUTexture.h; sourceTree = "<group>"; };
+		369E190419B8E2EA00CDC80A /* GLUTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUTexture.mm; sourceTree = "<group>"; };
+		369E190619B8E2EA00CDC80A /* GLUVertexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUVertexArray.h; sourceTree = "<group>"; };
+		369E190719B8E2EA00CDC80A /* GLUVertexArray.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLUVertexArray.mm; sourceTree = "<group>"; };
+		369E190919B8E2EA00CDC80A /* GLUVertices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLUVertices.h; sourceTree = "<group>"; };
+		36BE3F4213D6067E00D9C225 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		36BE3F6913D6067E00D9C225 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36BE3F8B13D60B6900D9C225 /* GL3_Text-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GL3_Text-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E48DA4E1395F1750035FEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363ADB521610E56A00EC32EF /* OpenGL.framework in Frameworks */,
+				363ADB501610E55C00EC32EF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E48DA461395F1750035FEC4 = {
+			isa = PBXGroup;
+			children = (
+				36BE3F4A13D6067E00D9C225 /* Sources */,
+				363ADB531610E58300EC32EF /* Frameworks */,
+				36BE3F4013D6067E00D9C225 /* Resources */,
+				2E48DA521395F1750035FEC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E48DA521395F1750035FEC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E48DA511395F1750035FEC4 /* GL3_Text.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361317A01640A96500825F6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				361317A41640A96500825F6B /* View */,
+				369E18E119B8E2EA00CDC80A /* Toolkits */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		361317A41640A96500825F6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3633608A16A887C40063863D /* GLUView.h */,
+				3633608B16A887C40063863D /* GLUView.mm */,
+				361317A51640A96500825F6B /* AppView.h */,
+				361317A61640A96500825F6B /* AppView.mm */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		363ADB531610E58300EC32EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363ADB511610E56A00EC32EF /* OpenGL.framework */,
+				363ADB4F1610E55C00EC32EF /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		369E18E119B8E2EA00CDC80A /* Toolkits */ = {
+			isa = PBXGroup;
+			children = (
+				369E18E219B8E2EA00CDC80A /* Core */,
+				369E18E919B8E2EA00CDC80A /* OpenGL */,
+			);
+			name = Toolkits;
+			path = Sources/Toolkits;
+			sourceTree = SOURCE_ROOT;
+		};
+		369E18E219B8E2EA00CDC80A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				369E18E319B8E2EA00CDC80A /* Input FIle Stream */,
+				369E18E619B8E2EA00CDC80A /* String */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		369E18E319B8E2EA00CDC80A /* Input FIle Stream */ = {
+			isa = PBXGroup;
+			children = (
+				369E18E419B8E2EA00CDC80A /* CFIFStream.h */,
+				369E18E519B8E2EA00CDC80A /* CFIFStream.mm */,
+			);
+			path = "Input FIle Stream";
+			sourceTree = "<group>";
+		};
+		369E18E619B8E2EA00CDC80A /* String */ = {
+			isa = PBXGroup;
+			children = (
+				369E18E719B8E2EA00CDC80A /* CFString.h */,
+				369E18E819B8E2EA00CDC80A /* CFUString.mm */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		369E18E919B8E2EA00CDC80A /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				369E18EA19B8E2EA00CDC80A /* Array */,
+				369E18ED19B8E2EA00CDC80A /* Containers */,
+				369E18EF19B8E2EA00CDC80A /* Math */,
+				369E18F619B8E2EA00CDC80A /* Query */,
+				369E18F919B8E2EA00CDC80A /* Shaders */,
+				369E18FC19B8E2EA00CDC80A /* String */,
+				369E18FF19B8E2EA00CDC80A /* Text */,
+				369E190219B8E2EA00CDC80A /* Texture */,
+				369E190519B8E2EA00CDC80A /* Vertex Array */,
+				369E190819B8E2EA00CDC80A /* Vertices */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		369E18EA19B8E2EA00CDC80A /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				369E18EB19B8E2EA00CDC80A /* GLUArray.h */,
+				369E18EC19B8E2EA00CDC80A /* GLUArray.mm */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		369E18ED19B8E2EA00CDC80A /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				369E18EE19B8E2EA00CDC80A /* GLUContainers.h */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		369E18EF19B8E2EA00CDC80A /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				369E18F019B8E2EA00CDC80A /* Constants */,
+				369E18F319B8E2EA00CDC80A /* Transforms */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		369E18F019B8E2EA00CDC80A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				369E18F119B8E2EA00CDC80A /* GLMConstants.h */,
+				369E18F219B8E2EA00CDC80A /* GLMConstants.mm */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		369E18F319B8E2EA00CDC80A /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				369E18F419B8E2EA00CDC80A /* GLMTransforms.h */,
+				369E18F519B8E2EA00CDC80A /* GLMTransforms.mm */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		369E18F619B8E2EA00CDC80A /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				369E18F719B8E2EA00CDC80A /* GLUQuery.h */,
+				369E18F819B8E2EA00CDC80A /* GLUQuery.mm */,
+			);
+			path = Query;
+			sourceTree = "<group>";
+		};
+		369E18F919B8E2EA00CDC80A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				369E18FA19B8E2EA00CDC80A /* GLUProgram.h */,
+				369E18FB19B8E2EA00CDC80A /* GLUProgram.mm */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		369E18FC19B8E2EA00CDC80A /* String */ = {
+			isa = PBXGroup;
+			children = (
+				369E18FD19B8E2EA00CDC80A /* GLUString.h */,
+				369E18FE19B8E2EA00CDC80A /* GLUString.mm */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		369E18FF19B8E2EA00CDC80A /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				369E190019B8E2EA00CDC80A /* GLUText.h */,
+				369E190119B8E2EA00CDC80A /* GLUText.mm */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		369E190219B8E2EA00CDC80A /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				369E190319B8E2EA00CDC80A /* GLUTexture.h */,
+				369E190419B8E2EA00CDC80A /* GLUTexture.mm */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		369E190519B8E2EA00CDC80A /* Vertex Array */ = {
+			isa = PBXGroup;
+			children = (
+				369E190619B8E2EA00CDC80A /* GLUVertexArray.h */,
+				369E190719B8E2EA00CDC80A /* GLUVertexArray.mm */,
+			);
+			path = "Vertex Array";
+			sourceTree = "<group>";
+		};
+		369E190819B8E2EA00CDC80A /* Vertices */ = {
+			isa = PBXGroup;
+			children = (
+				369E190919B8E2EA00CDC80A /* GLUVertices.h */,
+			);
+			path = Vertices;
+			sourceTree = "<group>";
+		};
+		36BE3F4013D6067E00D9C225 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36BE3F4113D6067E00D9C225 /* MainMenu.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		36BE3F4A13D6067E00D9C225 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				361317A01640A96500825F6B /* Classes */,
+				36BE3F6713D6067E00D9C225 /* Other */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		36BE3F6713D6067E00D9C225 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				36BE3F8B13D60B6900D9C225 /* GL3_Text-Info.plist */,
+				36BE3F6913D6067E00D9C225 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E48DA501395F1750035FEC4 /* GL3_Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E48DA6F1395F1760035FEC4 /* Build configuration list for PBXNativeTarget "GL3_Text" */;
+			buildPhases = (
+				2E48DA4D1395F1750035FEC4 /* Sources */,
+				2E48DA4E1395F1750035FEC4 /* Frameworks */,
+				2E48DA4F1395F1750035FEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GL3_Text;
+			productName = Instancing;
+			productReference = 2E48DA511395F1750035FEC4 /* GL3_Text.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E48DA481395F1750035FEC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 2E48DA4B1395F1750035FEC4 /* Build configuration list for PBXProject "GL3_Text" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E48DA461395F1750035FEC4;
+			productRefGroup = 2E48DA521395F1750035FEC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E48DA501395F1750035FEC4 /* GL3_Text */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E48DA4F1395F1750035FEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BE3F6A13D6067E00D9C225 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E48DA4D1395F1750035FEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369E190B19B8E2EA00CDC80A /* CFUString.mm in Sources */,
+				369E191019B8E2EA00CDC80A /* GLUProgram.mm in Sources */,
+				3633608D16A8885A0063863D /* GLUView.mm in Sources */,
+				369E190A19B8E2EA00CDC80A /* CFIFStream.mm in Sources */,
+				361317AD1640A96500825F6B /* AppView.mm in Sources */,
+				369E190F19B8E2EA00CDC80A /* GLUQuery.mm in Sources */,
+				369E191419B8E2EA00CDC80A /* GLUVertexArray.mm in Sources */,
+				369E190C19B8E2EA00CDC80A /* GLUArray.mm in Sources */,
+				369E191219B8E2EA00CDC80A /* GLUText.mm in Sources */,
+				36BE3F7D13D6067E00D9C225 /* main.m in Sources */,
+				369E190D19B8E2EA00CDC80A /* GLMConstants.mm in Sources */,
+				369E190E19B8E2EA00CDC80A /* GLMTransforms.mm in Sources */,
+				369E191119B8E2EA00CDC80A /* GLUString.mm in Sources */,
+				369E191319B8E2EA00CDC80A /* GLUTexture.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36BE3F4113D6067E00D9C225 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36BE3F4213D6067E00D9C225 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E48DA6D1395F1760035FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		2E48DA6E1395F1760035FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LLVM_LTO = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		2E48DA701395F1760035FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Sources/Other/GL3_Text-Info.plist";
+				PRODUCT_NAME = GL3_Text;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E48DA711395F1760035FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "Sources/Other/GL3_Text-Info.plist";
+				PRODUCT_NAME = GL3_Text;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E48DA4B1395F1750035FEC4 /* Build configuration list for PBXProject "GL3_Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E48DA6D1395F1760035FEC4 /* Debug */,
+				2E48DA6E1395F1760035FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E48DA6F1395F1760035FEC4 /* Build configuration list for PBXNativeTarget "GL3_Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E48DA701395F1760035FEC4 /* Debug */,
+				2E48DA711395F1760035FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E48DA481395F1750035FEC4 /* Project object */;
+}
