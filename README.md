@@ -24,7 +24,7 @@ So clearly Apple have changed/broken the runtime behavior of OpenGL on Mojave, a
 There is a hint in AppKit Release Notes for [macOS 10.14/Layer-Backed Views](https://developer.apple.com/documentation/appkit/appkit_release_notes_for_macos_10_14?language=objc):
 
 > Windows in apps linked against the macOS 10.14 SDK are displayed using Core Animation when the app is running in macOS 10.14. 
-> This doesn’t mean that all views are layer-backed; rather, it means that all views are either layer-backed or draw into a shared layer with other layers.
+> This doesn't mean that all views are layer-backed; rather, it means that all views are either layer-backed or draw into a shared layer with other layers.
 
 I've tried setting `setWantsLayer: YES` on my custom `NSView` as described in [Changes to subview drawing? - display works again but with severe flicker](https://forums.developer.apple.com/thread/107655).
 
